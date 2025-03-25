@@ -9,6 +9,7 @@
 @import './compositions/wrapper.css';
 @import './compositions/cluster.css';
 @import './compositions/grid.css';
+@import './compositions/flex-center.css';
 
 
 body {
@@ -37,13 +38,7 @@ body {
     margin: var(--space-s) var(--space-xs);
 }
 
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: var(--space-s);
-}
+
 
 .kicker-card {
     margin: var(--space-s);
