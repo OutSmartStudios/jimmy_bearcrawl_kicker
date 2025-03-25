@@ -1,0 +1,59 @@
+@import './_reset.css';
+
+/* Tokens */
+@import './tokens/_typography.css';
+@import './tokens/_colors.css';
+@import './tokens/_spacing.css';
+
+/* Compositions / Layouts */
+@import './compositions/wrapper.css';
+@import './compositions/cluster.css';
+@import './compositions/grid.css';
+
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family);
+}
+
+
+.h1 {
+    font-size: var(--space-m-2xl);
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-size: var(--step-5);
+    color: var(--color-orange);
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-size: var(--step-0);
+    margin: var(--space-s) var(--space-xs);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-s);
+}
+
+.kicker-card {
+    margin: var(--space-s);
+    justify-self: center;
+}
+
+  .box {
+    background-color: var(--color-orange);
+    opacity: 50%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .border-rad {
+    border-radius: 1.5rem;
+  }
