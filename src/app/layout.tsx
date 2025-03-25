@@ -3,7 +3,7 @@ import "./styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Jimmy BearCrawl | Training App",
-  description: "Time to get training",
+  description: "Jamoo Da Realest Donny S1nce v0ld3m0rtyyy",
 };
 
 export default function RootLayout({
