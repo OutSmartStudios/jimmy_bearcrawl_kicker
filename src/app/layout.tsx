@@ -3,7 +3,7 @@ import "./styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Jimmy BearCrawl | Training App",
-  description: "Jamoo Da Realest Donny S1nce v0ld3m0rtyyy",
+  description: "A training tool to add a little extra to the end of your workout!",
 };
 
 export default function RootLayout({
